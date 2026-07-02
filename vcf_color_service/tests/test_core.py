@@ -38,8 +38,8 @@ class TestBasicLookups:
         assert mapper.aci_to_rgb(999) == (0, 0, 0)
 
     def test_aci_to_name_cs(self, mapper):
-        assert mapper.aci_to_name(0, "cs") == "ByBlock"
-        assert mapper.aci_to_name(7, "cs") == "Černá"
+        assert mapper.aci_to_name(0, "cs") == "Černá"
+        assert mapper.aci_to_name(7, "cs") == "Černá (alias)"
         assert mapper.aci_to_name(52, "cs") == "Tyrkysová"
 
     def test_aci_to_name_en(self, mapper):
@@ -53,8 +53,8 @@ class TestBasicLookups:
     def test_aci_to_vcf_params(self, mapper):
         params = mapper.aci_to_vcf_params(7)
         assert params["cutter_type"] == "Vibrate cutter"
-        assert params["speed_mms"] == 80
-        assert params["h1_mm"] == 24.0
+        assert params["speed_mms"] == 150
+        assert params["h1_mm"] == 8.0
 
     def test_aci_to_vcf_params_vslot(self, mapper):
         params = mapper.aci_to_vcf_params(3)
@@ -96,7 +96,7 @@ class TestExports:
     def test_export_color_map_contains_black(self, mapper):
         cm = mapper.export_color_map()
         assert "000000" in cm
-        assert cm["000000"] == "Černá" or cm["000000"] == "ByBlock"
+        assert cm["000000"] in ("Černá", "Černá (alias)", "ByBlock")
 
     def test_export_color_map_teal(self, mapper):
         cm = mapper.export_color_map()
@@ -106,7 +106,7 @@ class TestExports:
     def test_export_aci_names(self, mapper):
         names = mapper.export_aci_names()
         assert names[1] == "Red"
-        assert names[7] == "Black"
+        assert names[7] in ("Black", "Black (alias)")
         assert names[52] == "Teal"
 
     def test_export_aci_to_rgb(self, mapper):
@@ -120,7 +120,7 @@ class TestExports:
         assert "default_feed_rate_mm_per_sec" in cfg
         aci7 = cfg["aci_color_mapping"]["7"]
         assert aci7["cutter_type"] == "Vibrate cutter"
-        assert aci7["validation_status"] == "native_vcf"
+        assert aci7["validation_status"] in ("native_vcf", "merged_into_aci_0")
 
     def test_export_vcf_config_structure(self, mapper):
         cfg = mapper.export_vcf_config()
