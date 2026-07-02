@@ -1,0 +1,260 @@
+{
+  "_schema": "aci_color_map_v2.0",
+  "_description": "Jediný zdroj pravdy pro ACI barevné mapování napříč vcf_parser_b2b, dxf_integrace a Vcf-compiler.",
+  "_version": "2.0",
+  "_last_calibrated": "2026-06-27",
+  "_ground_truth_source": "Native VCF files (fishbone_2790x1200_native, manchester_3_subjobs_native, circle_diameter_600_native, vyrobni_data_pernerka_dark_knight_12mm)",
+  "_conflicts": "ACI 7 speed varies (80-200 mm/s), ACI 3 speed varies (200-300 mm/s), ACI 52 speed varies (200-300 mm/s). Default values below are most common from native; dev to validate per machine.",
+
+  "colors": {
+    "0": {
+      "name_cs": "Černá",
+      "name_en": "Black",
+      "rgb": [0, 0, 0],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 150,
+        "direction": "N/A",
+        "h1_mm": 8.0,
+        "h2_mm": 0.5,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "calibrated",
+      "_note": "V VCF binary color_val=0 = Černá (ne ByBlock). Potvrzeno 30/30 záznamů z moodpasta VCF — vždy Vibrate cutter. V DXF odpovídá ACI 0 (ByBlock) i ACI 7 (Black), ve VCF kontextu vždy Černá."
+    },
+    "1": {
+      "name_cs": "Červená",
+      "name_en": "Red",
+      "rgb": [255, 0, 0],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 150,
+        "direction": "N/A",
+        "h1_mm": 2.0,
+        "h2_mm": -0.3,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "hypothesis",
+      "_note": "Červená (ACI 1) — vnější obrysy. Empiricky neověřeno, chybí native VCF sample."
+    },
+    "2": {
+      "name_cs": "Žlutá",
+      "name_en": "Yellow",
+      "rgb": [255, 255, 0],
+      "vcf_params": {
+        "cutter_type": "V-slot",
+        "speed_mms": 300,
+        "direction": "Left",
+        "h1_mm": 0.0,
+        "h2_mm": 6.0,
+        "vs_comp_mm": 0.1,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "native_vcf",
+      "_note": "Potvrzeno native dark_knight VCF: speed=300, Left, h2=6.0, vs_comp=0.1. Jednostranný V-slot (fazety)."
+    },
+    "3": {
+      "name_cs": "Zelená",
+      "name_en": "Green",
+      "rgb": [0, 255, 0],
+      "vcf_params": {
+        "cutter_type": "V-slot",
+        "speed_mms": 300,
+        "direction": "Cut both side",
+        "h1_mm": 0.0,
+        "h2_mm": 9.0,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 20.0,
+        "end_extension_mm": 20.0,
+        "is_output": true
+      },
+      "validation_status": "conflict_need_resolution",
+      "_note": "KONFLIKT: native fishbone/manchester mají speed=300, h2=9.0, ext=20.0. dxf_tool_config říká speed=200, h2=6.0, ext=2.0. dark_knight native má speed=200, h2=9.0, ext=2.0. Hodnota závisí na zakázce."
+    },
+    "4": {
+      "name_cs": "Azurová",
+      "name_en": "Cyan",
+      "rgb": [0, 255, 255],
+      "vcf_params": {
+        "cutter_type": "ambiguous",
+        "speed_mms": 200,
+        "direction": "Cut both side",
+        "h1_mm": 2.0,
+        "h2_mm": 6.0,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 2.0,
+        "end_extension_mm": 2.0,
+        "is_output": true
+      },
+      "validation_status": "hypothesis",
+      "_note": "AMBIGUOUS: dle hustoty bodů — Vibrate 50 mm/s (vysoká hustota) vs V-slot 200 mm/s (nízká hustota). Chybí native VCF sample."
+    },
+    "5": {
+      "name_cs": "Modrá",
+      "name_en": "Blue",
+      "rgb": [0, 0, 255],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 100,
+        "direction": "N/A",
+        "h1_mm": 0.0,
+        "h2_mm": 15.0,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 10.0,
+        "end_extension_mm": 10.0,
+        "is_output": false
+      },
+      "validation_status": "native_vcf",
+      "_note": "Potvrzeno native dark_knight VCF: speed=100, Vibrate, h2=15.0, is_output=false, ext=10.0. Malé kruhy/dírky."
+    },
+    "6": {
+      "name_cs": "Purpurová",
+      "name_en": "Magenta",
+      "rgb": [255, 0, 255],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 300,
+        "direction": "N/A",
+        "h1_mm": 2.0,
+        "h2_mm": -0.3,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "hypothesis",
+      "_note": "Vysokorychlostní chop. Chybí native VCF sample."
+    },
+    "7": {
+      "name_cs": "Černá (alias)",
+      "name_en": "Black (alias)",
+      "rgb": [0, 0, 0],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 150,
+        "direction": "N/A",
+        "h1_mm": 8.0,
+        "h2_mm": 0.5,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "merged_into_aci_0",
+      "_note": "ALIAS: Ve VCF kontextu sloučeno s ACI 0 (color_val=0 = Černá). Zachováno pro DXF kompatibilitu (ACI 7 = Black v AutoCADu). Všechny VCF parametry identické s ACI 0."
+    },
+    "8": {
+      "name_cs": "Tmavě šedá",
+      "name_en": "DarkGray",
+      "rgb": [128, 128, 128],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 200,
+        "direction": "N/A",
+        "h1_mm": 2.0,
+        "h2_mm": -0.3,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "hypothesis",
+      "_note": "Chybí native VCF sample."
+    },
+    "9": {
+      "name_cs": "Světle šedá",
+      "name_en": "LightGray",
+      "rgb": [192, 192, 192],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 200,
+        "direction": "N/A",
+        "h1_mm": 2.0,
+        "h2_mm": -0.3,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "hypothesis",
+      "_note": "Chybí native VCF sample."
+    },
+    "30": {
+      "name_cs": "Oranžová",
+      "name_en": "Orange",
+      "rgb": [255, 165, 0],
+      "vcf_params": {
+        "cutter_type": "V-slot",
+        "speed_mms": 100,
+        "direction": "Cut both side",
+        "h1_mm": 2.0,
+        "h2_mm": 6.0,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 2.0,
+        "end_extension_mm": 2.0,
+        "is_output": true
+      },
+      "validation_status": "calibrated",
+      "_note": "Speciální V-slot varianta. Pomalý, pro složité vzory."
+    },
+    "52": {
+      "name_cs": "Tyrkysová",
+      "name_en": "Teal",
+      "rgb": [0, 204, 204],
+      "vcf_params": {
+        "cutter_type": "V-slot",
+        "speed_mms": 300,
+        "direction": "Left",
+        "h1_mm": 0.0,
+        "h2_mm": 9.0,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "conflict_need_resolution",
+      "_note": "KONFLIKT: native fishbone/manchester VCF mají speed=300, h2=9.0. dxf_tool_config říká speed=200, h2=6.0, ext=3.0. RGB(0,204,204) potvrzen native VCF — NENÍ Lime!"
+    },
+    "92": {
+      "name_cs": "Azurová (tmavá)",
+      "name_en": "Azure",
+      "rgb": [8, 145, 178],
+      "vcf_params": {
+        "cutter_type": "V-slot",
+        "speed_mms": 300,
+        "direction": "Cut both side",
+        "h1_mm": 2.0,
+        "h2_mm": 6.0,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 10.0,
+        "end_extension_mm": 10.0,
+        "is_output": true
+      },
+      "validation_status": "hypothesis",
+      "_note": "Málo vzorků. Chybí native VCF sample."
+    }
+  },
+
+  "cutter_types": {
+    "Vibrate cutter": {"id": 1, "description": "Oscilační / vibrační nůž"},
+    "Wheel": {"id": 2, "description": "Kolečko (lamino)"},
+    "Milling cutter": {"id": 3, "description": "Fréza"},
+    "V-slot": {"id": 4, "description": "V-drážka (45° nůž)"},
+    "Vibrate cut": {"id": 5, "description": "Alternativní vibrační řez"}
+  },
+
+  "directions": {
+    "Left": {"id": 1, "description": "Jednostranný řez vlevo"},
+    "Right": {"id": 2, "description": "Jednostranný řez vpravo"},
+    "Cut both side": {"id": 3, "description": "Oboustranný řez (tam i zpět)"},
+    "N/A": {"id": 0, "description": "Nerelevantní (Vibrate cutter)"}
+  }
+}

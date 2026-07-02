@@ -1,0 +1,379 @@
+{
+  "_schema": "aci_color_map_v2.1",
+  "_description": "Statisticky odvozený jediný zdroj pravdy pro ACI barevné mapování. Vygenerováno z 35 VCF souborů (98 layer záznamů).",
+  "_version": "2.1",
+  "_generated": "2026-06-28T08:30:33",
+  "_generator": "vcf_color_extractor.py",
+  "colors": {
+    "0": {
+      "name_cs": "Černá",
+      "name_en": "Black",
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 200,
+        "direction": "N/A",
+        "h1_mm": 0.0,
+        "h2_mm": -0.3,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "calibrated",
+      "_stats": {
+        "sample_count": 30,
+        "source_count": 30,
+        "speed_mean": 154.0,
+        "speed_std": 56.59,
+        "speed_mode": 200,
+        "speed_range": "75.0-300.0",
+        "confidence_score": 0.799
+      }
+    },
+    "5": {
+      "name_cs": "Modrá",
+      "name_en": "Blue",
+      "rgb": [
+        0,
+        0,
+        255
+      ],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 100,
+        "direction": "N/A",
+        "h1_mm": 0.0,
+        "h2_mm": 15.0,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 10.0,
+        "end_extension_mm": 10.0,
+        "is_output": false
+      },
+      "validation_status": "native_vcf",
+      "_stats": {
+        "sample_count": 11,
+        "source_count": 11,
+        "speed_mean": 109.09,
+        "speed_std": 30.15,
+        "speed_mode": 100,
+        "speed_range": "100.0-200.0",
+        "confidence_score": 0.579
+      }
+    },
+    "92": {
+      "name_cs": "Azurová (tmavá)",
+      "name_en": "Azure",
+      "rgb": [
+        8,
+        145,
+        178
+      ],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 100,
+        "direction": "N/A",
+        "h1_mm": 0.0,
+        "h2_mm": 0.0,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "hypothesis",
+      "_stats": {
+        "sample_count": 1,
+        "source_count": 1,
+        "speed_mean": 100.0,
+        "speed_std": 0.0,
+        "speed_mode": 100,
+        "speed_range": "100.0-100.0",
+        "confidence_score": 0.62
+      }
+    },
+    "3": {
+      "name_cs": "Zelená",
+      "name_en": "Green",
+      "rgb": [
+        0,
+        255,
+        0
+      ],
+      "vcf_params": {
+        "cutter_type": "V-slot",
+        "speed_mms": 200,
+        "direction": "Cut both side",
+        "h1_mm": 0.0,
+        "h2_mm": 6.0,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 2.0,
+        "end_extension_mm": 2.0,
+        "is_output": true
+      },
+      "validation_status": "calibrated",
+      "_stats": {
+        "sample_count": 15,
+        "source_count": 15,
+        "speed_mean": 230.0,
+        "speed_std": 84.09,
+        "speed_mode": 200,
+        "speed_range": "150.0-500.0",
+        "confidence_score": 0.708
+      }
+    },
+    "52": {
+      "name_cs": "Tyrkysová",
+      "name_en": "Teal",
+      "rgb": [
+        0,
+        204,
+        204
+      ],
+      "vcf_params": {
+        "cutter_type": "V-slot",
+        "speed_mms": 200,
+        "direction": "Cut both side",
+        "h1_mm": 0.0,
+        "h2_mm": 6.0,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 2.5,
+        "end_extension_mm": 2.5,
+        "is_output": true
+      },
+      "validation_status": "native_vcf",
+      "_stats": {
+        "sample_count": 6,
+        "source_count": 6,
+        "speed_mean": 195.83,
+        "speed_std": 114.47,
+        "speed_mode": 200,
+        "speed_range": "75.0-400.0",
+        "confidence_score": 0.438
+      }
+    },
+    "4": {
+      "name_cs": "Azurová",
+      "name_en": "Cyan",
+      "rgb": [
+        0,
+        255,
+        255
+      ],
+      "vcf_params": {
+        "cutter_type": "V-slot",
+        "speed_mms": 300,
+        "direction": "Left",
+        "h1_mm": 0.0,
+        "h2_mm": 6.0,
+        "vs_comp_mm": 0.1,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "native_vcf",
+      "_stats": {
+        "sample_count": 9,
+        "source_count": 9,
+        "speed_mean": 277.78,
+        "speed_std": 83.33,
+        "speed_mode": 300,
+        "speed_range": "100.0-400.0",
+        "confidence_score": 0.558
+      }
+    },
+    "8": {
+      "name_cs": "Tmavě šedá",
+      "name_en": "DarkGray",
+      "rgb": [
+        128,
+        128,
+        128
+      ],
+      "vcf_params": {
+        "cutter_type": "V-slot",
+        "speed_mms": 100,
+        "direction": "Cut both side",
+        "h1_mm": 0.0,
+        "h2_mm": 3.0,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 25.0,
+        "is_output": true
+      },
+      "validation_status": "hypothesis",
+      "_stats": {
+        "sample_count": 1,
+        "source_count": 1,
+        "speed_mean": 100.0,
+        "speed_std": 0.0,
+        "speed_mode": 100,
+        "speed_range": "100.0-100.0",
+        "confidence_score": 0.62
+      }
+    },
+    "1": {
+      "name_cs": "Červená",
+      "name_en": "Red",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 70,
+        "direction": "N/A",
+        "h1_mm": 0.0,
+        "h2_mm": -0.5,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "native_vcf",
+      "_stats": {
+        "sample_count": 8,
+        "source_count": 8,
+        "speed_mean": 113.75,
+        "speed_std": 48.09,
+        "speed_mode": 70,
+        "speed_range": "70.0-200.0",
+        "confidence_score": 0.464
+      }
+    },
+    "6": {
+      "name_cs": "Purpurová",
+      "name_en": "Magenta",
+      "rgb": [
+        255,
+        0,
+        255
+      ],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 300,
+        "direction": "N/A",
+        "h1_mm": 0.0,
+        "h2_mm": 8.0,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 1.0,
+        "end_extension_mm": 1.0,
+        "is_output": true
+      },
+      "validation_status": "hypothesis",
+      "_stats": {
+        "sample_count": 1,
+        "source_count": 1,
+        "speed_mean": 300.0,
+        "speed_std": 0.0,
+        "speed_mode": 300,
+        "speed_range": "300.0-300.0",
+        "confidence_score": 0.62
+      }
+    },
+    "30": {
+      "name_cs": "Oranžová",
+      "name_en": "Orange",
+      "rgb": [
+        255,
+        165,
+        0
+      ],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 45,
+        "direction": "N/A",
+        "h1_mm": 0.0,
+        "h2_mm": -0.5,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "hypothesis",
+      "_stats": {
+        "sample_count": 2,
+        "source_count": 2,
+        "speed_mean": 72.5,
+        "speed_std": 38.89,
+        "speed_mode": 45,
+        "speed_range": "45.0-100.0",
+        "confidence_score": 0.24
+      }
+    },
+    "2": {
+      "name_cs": "Žlutá",
+      "name_en": "Yellow",
+      "rgb": [
+        255,
+        255,
+        0
+      ],
+      "vcf_params": {
+        "cutter_type": "Vibrate cutter",
+        "speed_mms": 50,
+        "direction": "N/A",
+        "h1_mm": 0.0,
+        "h2_mm": 0.0,
+        "vs_comp_mm": 0.0,
+        "start_extension_mm": 0.0,
+        "end_extension_mm": 0.0,
+        "is_output": true
+      },
+      "validation_status": "native_vcf",
+      "_stats": {
+        "sample_count": 3,
+        "source_count": 3,
+        "speed_mean": 100.0,
+        "speed_std": 86.6,
+        "speed_mode": 50,
+        "speed_range": "50.0-200.0",
+        "confidence_score": 0.26
+      }
+    }
+  },
+  "cutter_types": {
+    "Vibrate cutter": {
+      "id": 1,
+      "description": "Oscilační / vibrační nůž"
+    },
+    "Wheel": {
+      "id": 2,
+      "description": "Kolečko (lamino)"
+    },
+    "Milling cutter": {
+      "id": 3,
+      "description": "Fréza"
+    },
+    "V-slot": {
+      "id": 4,
+      "description": "V-drážka (45° nůž)"
+    },
+    "Vibrate cut": {
+      "id": 5,
+      "description": "Alternativní vibrační řez"
+    }
+  },
+  "directions": {
+    "Left": {
+      "id": 1,
+      "description": "Jednostranný řez vlevo"
+    },
+    "Right": {
+      "id": 2,
+      "description": "Jednostranný řez vpravo"
+    },
+    "Cut both side": {
+      "id": 3,
+      "description": "Oboustranný řez (tam i zpět)"
+    },
+    "N/A": {
+      "id": 0,
+      "description": "Nerelevantní (Vibrate cutter)"
+    }
+  }
+}

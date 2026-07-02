@@ -1,0 +1,1924 @@
+{
+  "meta": {
+    "total_files_found": 35,
+    "hash_unique_files": 35,
+    "total_layer_records": 98,
+    "unique_colors": 15,
+    "parse_errors": 0,
+    "extracted_at": "2026-06-28T08:30:33",
+    "mapper_available": true
+  },
+  "errors": [],
+  "colors": {
+    "0": {
+      "color_val": 0,
+      "color_hex": "0x00000000",
+      "color_rgb": [
+        0,
+        0,
+        0
+      ],
+      "aci_mapped": 0,
+      "aci_name": "Černá",
+      "aci_confidence": 1.0,
+      "sample_count": 30,
+      "unique_sources": 30,
+      "source_files": [
+        "2560x150 s fazetou 45st hl6.VCF",
+        "2790x1200 s fazetou.VCF",
+        "Arbyd_výrobní data_V1 20.5.2025.VCF",
+        "Big_coffee_dune_2790_600.VCF",
+        "FLUENZ BOLD M_Varianta A 2ks skladba.VCF",
+        "FLUENZ BOLD M_Varianta A.VCF",
+        "FLUENZ BOLD S upr.VCF",
+        "FLUENZ BOLD S_Zdroj světla dole.VCF",
+        "FLUENZ BOLD S_Zdroj světla nahoře.VCF",
+        "FLUENZ L.VCF",
+        "FLUENZ M.VCF",
+        "FLUENZ S.VCF",
+        "FLUENZ XL.VCF",
+        "Fishbone 2790x1200.VCF",
+        "PCB.VCF",
+        "V měřítku.VCF",
+        "big coffee 12.8.2790x1200 bezotočení.VCF",
+        "bigcoffee 12.8. 2790x1200.VCF",
+        "botanic 2790 x1200.VCF",
+        "botanic vše_3780.VCF",
+        "data řez.VCF",
+        "musica 2790x1200.VCF",
+        "small coffee 2790x1200.VCF",
+        "small fishbone 2790x1200.VCF",
+        "stripe sixty 1200x2790.VCF",
+        "vyrobni_data_Pernerka-Service for office_Camel_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Dark Knight_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Matcha_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Savanna_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Terracota_12mm.VCF"
+      ],
+      "speed_mms": {
+        "mean": 154.0,
+        "min": 75.0,
+        "max": 300.0,
+        "std": 56.59,
+        "count": 30,
+        "confidence": 0.799,
+        "mode_value": 200,
+        "mode_count": 12,
+        "mode_ratio": 0.4
+      },
+      "cutter_type": {
+        "most_common": "Vibrate cutter",
+        "mode_count": 29,
+        "total": 30,
+        "mode_ratio": 0.967,
+        "unique_values": [
+          "V-slot",
+          "Vibrate cutter"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 0.9,
+        "min": 0.0,
+        "max": 1.0,
+        "std": 0.31,
+        "count": 30,
+        "confidence": 0.756,
+        "mode_value": 1.0,
+        "mode_count": 27,
+        "mode_ratio": 0.9
+      },
+      "start_height_h1_mm": {
+        "mean": 8.0,
+        "min": 0.0,
+        "max": 24.0,
+        "std": 11.07,
+        "count": 30,
+        "confidence": 0.631,
+        "mode_value": 0.0,
+        "mode_count": 19,
+        "mode_ratio": 0.633
+      },
+      "end_height_h2_mm": {
+        "mean": 0.53,
+        "min": -0.5,
+        "max": 12.0,
+        "std": 2.88,
+        "count": 30,
+        "confidence": 0.816,
+        "mode_value": -0.3,
+        "mode_count": 12,
+        "mode_ratio": 0.4
+      },
+      "direction": {
+        "most_common": "N/A",
+        "mode_count": 29,
+        "total": 30,
+        "mode_ratio": 0.967,
+        "unique_values": [
+          "Left",
+          "N/A"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 30,
+        "confidence": 1.0,
+        "mode_value": 0.0,
+        "mode_count": 30,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 30,
+        "confidence": 1.0,
+        "mode_value": 0.0,
+        "mode_count": 30,
+        "mode_ratio": 1.0
+      },
+      "ending_extension_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 30,
+        "confidence": 1.0,
+        "mode_value": 0.0,
+        "mode_count": 30,
+        "mode_ratio": 1.0
+      },
+      "is_output_yes": {
+        "most_common": "True",
+        "mode_count": 30,
+        "total": 30,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "True"
+        ]
+      }
+    },
+    "204": {
+      "color_val": 204,
+      "color_hex": "0x000000cc",
+      "color_rgb": [
+        0,
+        0,
+        204
+      ],
+      "aci_mapped": 5,
+      "aci_name": "Modrá",
+      "aci_confidence": 0.885,
+      "sample_count": 8,
+      "unique_sources": 8,
+      "source_files": [
+        "FLUENZ BOLD M_Varianta A.VCF",
+        "FLUENZ BOLD S upr.VCF",
+        "FLUENZ BOLD S_Zdroj světla dole.VCF",
+        "FLUENZ BOLD S_Zdroj světla nahoře.VCF",
+        "FLUENZ L.VCF",
+        "FLUENZ M.VCF",
+        "FLUENZ S.VCF",
+        "FLUENZ XL.VCF"
+      ],
+      "speed_mms": {
+        "mean": 100.0,
+        "min": 100.0,
+        "max": 100.0,
+        "std": 0.0,
+        "count": 8,
+        "confidence": 0.76,
+        "mode_value": 100,
+        "mode_count": 8,
+        "mode_ratio": 1.0
+      },
+      "cutter_type": {
+        "most_common": "Vibrate cutter",
+        "mode_count": 8,
+        "total": 8,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "Vibrate cutter"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 8,
+        "confidence": 0.76,
+        "mode_value": 0.0,
+        "mode_count": 8,
+        "mode_ratio": 1.0
+      },
+      "start_height_h1_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 8,
+        "confidence": 0.76,
+        "mode_value": 0.0,
+        "mode_count": 8,
+        "mode_ratio": 1.0
+      },
+      "end_height_h2_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 8,
+        "confidence": 0.76,
+        "mode_value": 0.0,
+        "mode_count": 8,
+        "mode_ratio": 1.0
+      },
+      "direction": {
+        "most_common": "N/A",
+        "mode_count": 8,
+        "total": 8,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "N/A"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 8,
+        "confidence": 0.76,
+        "mode_value": 0.0,
+        "mode_count": 8,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 8,
+        "confidence": 0.76,
+        "mode_value": 0.0,
+        "mode_count": 8,
+        "mode_ratio": 1.0
+      },
+      "ending_extension_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 8,
+        "confidence": 0.76,
+        "mode_value": 0.0,
+        "mode_count": 8,
+        "mode_ratio": 1.0
+      },
+      "is_output_yes": {
+        "most_common": "False",
+        "mode_count": 8,
+        "total": 8,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "False"
+        ]
+      }
+    },
+    "255": {
+      "color_val": 255,
+      "color_hex": "0x000000ff",
+      "color_rgb": [
+        0,
+        0,
+        255
+      ],
+      "aci_mapped": 5,
+      "aci_name": "Modrá",
+      "aci_confidence": 1.0,
+      "sample_count": 11,
+      "unique_sources": 11,
+      "source_files": [
+        "26ks skladba.VCF",
+        "26ks skladba_nesting.VCF",
+        "Arbyd_výrobní data_V1 20.5.2025.VCF",
+        "FLUENZ BOLD M_Varianta A 2ks skladba.VCF",
+        "PCB.VCF",
+        "botanic vše_3780.VCF",
+        "vyrobni_data_Pernerka-Service for office_Camel_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Dark Knight_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Matcha_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Savanna_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Terracota_12mm.VCF"
+      ],
+      "speed_mms": {
+        "mean": 109.09,
+        "min": 100.0,
+        "max": 200.0,
+        "std": 30.15,
+        "count": 11,
+        "confidence": 0.579,
+        "mode_value": 100,
+        "mode_count": 10,
+        "mode_ratio": 0.909
+      },
+      "cutter_type": {
+        "most_common": "Vibrate cutter",
+        "mode_count": 8,
+        "total": 11,
+        "mode_ratio": 0.727,
+        "unique_values": [
+          "V-slot",
+          "Vibrate cutter"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 0.91,
+        "min": 0.0,
+        "max": 1.0,
+        "std": 0.3,
+        "count": 11,
+        "confidence": 0.579,
+        "mode_value": 1.0,
+        "mode_count": 10,
+        "mode_ratio": 0.909
+      },
+      "start_height_h1_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 11,
+        "confidence": 0.82,
+        "mode_value": 0.0,
+        "mode_count": 11,
+        "mode_ratio": 1.0
+      },
+      "end_height_h2_mm": {
+        "mean": 10.95,
+        "min": 0.0,
+        "max": 15.0,
+        "std": 6.93,
+        "count": 11,
+        "confidence": 0.45,
+        "mode_value": 15.0,
+        "mode_count": 8,
+        "mode_ratio": 0.727
+      },
+      "direction": {
+        "most_common": "N/A",
+        "mode_count": 8,
+        "total": 11,
+        "mode_ratio": 0.727,
+        "unique_values": [
+          "Cut both side",
+          "N/A"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 11,
+        "confidence": 0.82,
+        "mode_value": 0.0,
+        "mode_count": 11,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "std": 0.0,
+        "count": 11,
+        "confidence": 0.82,
+        "mode_value": 10.0,
+        "mode_count": 11,
+        "mode_ratio": 1.0
+      },
+      "ending_extension_mm": {
+        "mean": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "std": 0.0,
+        "count": 11,
+        "confidence": 0.82,
+        "mode_value": 10.0,
+        "mode_count": 11,
+        "mode_ratio": 1.0
+      },
+      "is_output_yes": {
+        "most_common": "False",
+        "mode_count": 11,
+        "total": 11,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "False"
+        ]
+      }
+    },
+    "32767": {
+      "color_val": 32767,
+      "color_hex": "0x00007fff",
+      "color_rgb": [
+        0,
+        127,
+        255
+      ],
+      "aci_mapped": 92,
+      "aci_name": "Azurová (tmavá)",
+      "aci_confidence": 0.82,
+      "sample_count": 1,
+      "unique_sources": 1,
+      "source_files": [
+        "musica 2790x1200.VCF"
+      ],
+      "speed_mms": {
+        "mean": 75.0,
+        "min": 75.0,
+        "max": 75.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 75,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "cutter_type": {
+        "most_common": "V-slot",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "V-slot"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 1.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "start_height_h1_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "end_height_h2_mm": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 6.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "direction": {
+        "most_common": "Cut both side",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "Cut both side"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 2.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "ending_extension_mm": {
+        "mean": 2.0,
+        "min": 2.0,
+        "max": 2.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 2.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "is_output_yes": {
+        "most_common": "True",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "True"
+        ]
+      }
+    },
+    "52224": {
+      "color_val": 52224,
+      "color_hex": "0x0000cc00",
+      "color_rgb": [
+        0,
+        204,
+        0
+      ],
+      "aci_mapped": 3,
+      "aci_name": "Zelená",
+      "aci_confidence": 0.885,
+      "sample_count": 1,
+      "unique_sources": 1,
+      "source_files": [
+        "data řez.VCF"
+      ],
+      "speed_mms": {
+        "mean": 300.0,
+        "min": 300.0,
+        "max": 300.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 300,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "cutter_type": {
+        "most_common": "V-slot",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "V-slot"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 1.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "start_height_h1_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "end_height_h2_mm": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 6.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "direction": {
+        "most_common": "Cut both side",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "Cut both side"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 10.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "ending_extension_mm": {
+        "mean": 10.0,
+        "min": 10.0,
+        "max": 10.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 10.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "is_output_yes": {
+        "most_common": "True",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "True"
+        ]
+      }
+    },
+    "52428": {
+      "color_val": 52428,
+      "color_hex": "0x0000cccc",
+      "color_rgb": [
+        0,
+        204,
+        204
+      ],
+      "aci_mapped": 52,
+      "aci_name": "Tyrkysová",
+      "aci_confidence": 1.0,
+      "sample_count": 6,
+      "unique_sources": 6,
+      "source_files": [
+        "Fishbone 2790x1200.VCF",
+        "big coffee 12.8.2790x1200 bezotočení.VCF",
+        "bigcoffee 12.8. 2790x1200.VCF",
+        "botanic vše_3780.VCF",
+        "musica 2790x1200.VCF",
+        "small fishbone 2790x1200.VCF"
+      ],
+      "speed_mms": {
+        "mean": 195.83,
+        "min": 75.0,
+        "max": 400.0,
+        "std": 114.47,
+        "count": 6,
+        "confidence": 0.438,
+        "mode_value": 200,
+        "mode_count": 3,
+        "mode_ratio": 0.5
+      },
+      "cutter_type": {
+        "most_common": "V-slot",
+        "mode_count": 6,
+        "total": 6,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "V-slot"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0,
+        "count": 6,
+        "confidence": 0.72,
+        "mode_value": 1.0,
+        "mode_count": 6,
+        "mode_ratio": 1.0
+      },
+      "start_height_h1_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 6,
+        "confidence": 0.72,
+        "mode_value": 0.0,
+        "mode_count": 6,
+        "mode_ratio": 1.0
+      },
+      "end_height_h2_mm": {
+        "mean": 6.0,
+        "min": 6.0,
+        "max": 6.0,
+        "std": 0.0,
+        "count": 6,
+        "confidence": 0.72,
+        "mode_value": 6.0,
+        "mode_count": 6,
+        "mode_ratio": 1.0
+      },
+      "direction": {
+        "most_common": "Cut both side",
+        "mode_count": 5,
+        "total": 6,
+        "mode_ratio": 0.833,
+        "unique_values": [
+          "Cut both side",
+          "Left"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 6,
+        "confidence": 0.72,
+        "mode_value": 0.0,
+        "mode_count": 6,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 3.33,
+        "min": 0.0,
+        "max": 10.0,
+        "std": 3.43,
+        "count": 6,
+        "confidence": 0.446,
+        "mode_value": 2.5,
+        "mode_count": 2,
+        "mode_ratio": 0.333
+      },
+      "ending_extension_mm": {
+        "mean": 3.33,
+        "min": 0.0,
+        "max": 10.0,
+        "std": 3.43,
+        "count": 6,
+        "confidence": 0.446,
+        "mode_value": 2.5,
+        "mode_count": 2,
+        "mode_ratio": 0.333
+      },
+      "is_output_yes": {
+        "most_common": "True",
+        "mode_count": 6,
+        "total": 6,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "True"
+        ]
+      }
+    },
+    "65280": {
+      "color_val": 65280,
+      "color_hex": "0x0000ff00",
+      "color_rgb": [
+        0,
+        255,
+        0
+      ],
+      "aci_mapped": 3,
+      "aci_name": "Zelená",
+      "aci_confidence": 1.0,
+      "sample_count": 15,
+      "unique_sources": 15,
+      "source_files": [
+        "2560x150 s fazetou 45st hl6.VCF",
+        "Big_coffee_dune_2790_600.VCF",
+        "Fishbone 2790x1200.VCF",
+        "PCB.VCF",
+        "big coffee 12.8.2790x1200 bezotočení.VCF",
+        "bigcoffee 12.8. 2790x1200.VCF",
+        "botanic 2790 x1200.VCF",
+        "botanic vše_3780.VCF",
+        "small coffee 2790x1200.VCF",
+        "small fishbone 2790x1200.VCF",
+        "vyrobni_data_Pernerka-Service for office_Camel_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Dark Knight_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Matcha_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Savanna_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Terracota_12mm.VCF"
+      ],
+      "speed_mms": {
+        "mean": 230.0,
+        "min": 150.0,
+        "max": 500.0,
+        "std": 84.09,
+        "count": 15,
+        "confidence": 0.708,
+        "mode_value": 200,
+        "mode_count": 11,
+        "mode_ratio": 0.733
+      },
+      "cutter_type": {
+        "most_common": "V-slot",
+        "mode_count": 15,
+        "total": 15,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "V-slot"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0,
+        "count": 15,
+        "confidence": 0.9,
+        "mode_value": 1.0,
+        "mode_count": 15,
+        "mode_ratio": 1.0
+      },
+      "start_height_h1_mm": {
+        "mean": 1.67,
+        "min": 0.0,
+        "max": 4.0,
+        "std": 1.63,
+        "count": 15,
+        "confidence": 0.573,
+        "mode_value": 0.0,
+        "mode_count": 7,
+        "mode_ratio": 0.467
+      },
+      "end_height_h2_mm": {
+        "mean": 7.4,
+        "min": 6.0,
+        "max": 9.0,
+        "std": 1.55,
+        "count": 15,
+        "confidence": 0.5,
+        "mode_value": 6.0,
+        "mode_count": 8,
+        "mode_ratio": 0.533
+      },
+      "direction": {
+        "most_common": "Cut both side",
+        "mode_count": 10,
+        "total": 15,
+        "mode_ratio": 0.667,
+        "unique_values": [
+          "Cut both side",
+          "Left"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 15,
+        "confidence": 0.9,
+        "mode_value": 0.0,
+        "mode_count": 15,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 1.93,
+        "min": 0.0,
+        "max": 10.0,
+        "std": 2.46,
+        "count": 15,
+        "confidence": 0.704,
+        "mode_value": 2.0,
+        "mode_count": 7,
+        "mode_ratio": 0.467
+      },
+      "ending_extension_mm": {
+        "mean": 1.93,
+        "min": 0.0,
+        "max": 10.0,
+        "std": 2.46,
+        "count": 15,
+        "confidence": 0.704,
+        "mode_value": 2.0,
+        "mode_count": 7,
+        "mode_ratio": 0.467
+      },
+      "is_output_yes": {
+        "most_common": "True",
+        "mode_count": 15,
+        "total": 15,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "True"
+        ]
+      }
+    },
+    "65535": {
+      "color_val": 65535,
+      "color_hex": "0x0000ffff",
+      "color_rgb": [
+        0,
+        255,
+        255
+      ],
+      "aci_mapped": 4,
+      "aci_name": "Azurová",
+      "aci_confidence": 1.0,
+      "sample_count": 9,
+      "unique_sources": 9,
+      "source_files": [
+        "Big_coffee_dune_2790_600.VCF",
+        "botanic 2790 x1200.VCF",
+        "small coffee 2790x1200.VCF",
+        "stripe sixty 1200x2790.VCF",
+        "vyrobni_data_Pernerka-Service for office_Camel_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Dark Knight_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Matcha_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Savanna_12mm.VCF",
+        "vyrobni_data_Pernerka-Service for office_Terracota_12mm.VCF"
+      ],
+      "speed_mms": {
+        "mean": 277.78,
+        "min": 100.0,
+        "max": 400.0,
+        "std": 83.33,
+        "count": 9,
+        "confidence": 0.558,
+        "mode_value": 300,
+        "mode_count": 6,
+        "mode_ratio": 0.667
+      },
+      "cutter_type": {
+        "most_common": "V-slot",
+        "mode_count": 9,
+        "total": 9,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "V-slot"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0,
+        "count": 9,
+        "confidence": 0.78,
+        "mode_value": 1.0,
+        "mode_count": 9,
+        "mode_ratio": 1.0
+      },
+      "start_height_h1_mm": {
+        "mean": 2.67,
+        "min": 0.0,
+        "max": 24.0,
+        "std": 8.0,
+        "count": 9,
+        "confidence": 0.513,
+        "mode_value": 0.0,
+        "mode_count": 8,
+        "mode_ratio": 0.889
+      },
+      "end_height_h2_mm": {
+        "mean": 6.33,
+        "min": 6.0,
+        "max": 9.0,
+        "std": 1.0,
+        "count": 9,
+        "confidence": 0.513,
+        "mode_value": 6.0,
+        "mode_count": 8,
+        "mode_ratio": 0.889
+      },
+      "direction": {
+        "most_common": "Left",
+        "mode_count": 7,
+        "total": 9,
+        "mode_ratio": 0.778,
+        "unique_values": [
+          "Cut both side",
+          "Left"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.1,
+        "min": 0.1,
+        "max": 0.1,
+        "std": 0.0,
+        "count": 9,
+        "confidence": 0.78,
+        "mode_value": 0.1,
+        "mode_count": 9,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 1.89,
+        "min": 0.0,
+        "max": 15.0,
+        "std": 4.96,
+        "count": 9,
+        "confidence": 0.515,
+        "mode_value": 0.0,
+        "mode_count": 7,
+        "mode_ratio": 0.778
+      },
+      "ending_extension_mm": {
+        "mean": 1.89,
+        "min": 0.0,
+        "max": 15.0,
+        "std": 4.96,
+        "count": 9,
+        "confidence": 0.515,
+        "mode_value": 0.0,
+        "mode_count": 7,
+        "mode_ratio": 0.778
+      },
+      "is_output_yes": {
+        "most_common": "True",
+        "mode_count": 9,
+        "total": 9,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "True"
+        ]
+      }
+    },
+    "5738746": {
+      "color_val": 5738746,
+      "color_hex": "0x005790fa",
+      "color_rgb": [
+        87,
+        144,
+        250
+      ],
+      "aci_mapped": 92,
+      "aci_name": "Azurová (tmavá)",
+      "aci_confidence": 0.758,
+      "sample_count": 1,
+      "unique_sources": 1,
+      "source_files": [
+        "26ks skladba_nesting.VCF"
+      ],
+      "speed_mms": {
+        "mean": 100.0,
+        "min": 100.0,
+        "max": 100.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 100,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "cutter_type": {
+        "most_common": "Vibrate cutter",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "Vibrate cutter"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "start_height_h1_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "end_height_h2_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "direction": {
+        "most_common": "N/A",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "N/A"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "ending_extension_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "is_output_yes": {
+        "most_common": "True",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "True"
+        ]
+      }
+    },
+    "7593333": {
+      "color_val": 7593333,
+      "color_hex": "0x0073dd75",
+      "color_rgb": [
+        115,
+        221,
+        117
+      ],
+      "aci_mapped": 8,
+      "aci_name": "Tmavě šedá",
+      "aci_confidence": 0.786,
+      "sample_count": 1,
+      "unique_sources": 1,
+      "source_files": [
+        "26ks skladba_nesting.VCF"
+      ],
+      "speed_mms": {
+        "mean": 100.0,
+        "min": 100.0,
+        "max": 100.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 100,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "cutter_type": {
+        "most_common": "V-slot",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "V-slot"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 1.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "start_height_h1_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "end_height_h2_mm": {
+        "mean": 3.0,
+        "min": 3.0,
+        "max": 3.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 3.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "direction": {
+        "most_common": "Cut both side",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "Cut both side"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "ending_extension_mm": {
+        "mean": 25.0,
+        "min": 25.0,
+        "max": 25.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 25.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "is_output_yes": {
+        "most_common": "True",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "True"
+        ]
+      }
+    },
+    "8388672": {
+      "color_val": 8388672,
+      "color_hex": "0x00800040",
+      "color_rgb": [
+        128,
+        0,
+        64
+      ],
+      "aci_mapped": 1,
+      "aci_name": "Červená",
+      "aci_confidence": 0.678,
+      "sample_count": 1,
+      "unique_sources": 1,
+      "source_files": [
+        "Arbyd_výrobní data_V1 20.5.2025.VCF"
+      ],
+      "speed_mms": {
+        "mean": 75.0,
+        "min": 75.0,
+        "max": 75.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 75,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "cutter_type": {
+        "most_common": "Vibrate cutter",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "Vibrate cutter"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 1.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "start_height_h1_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "end_height_h2_mm": {
+        "mean": -0.5,
+        "min": -0.5,
+        "max": -0.5,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": -0.5,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "direction": {
+        "most_common": "N/A",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "N/A"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "ending_extension_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "is_output_yes": {
+        "most_common": "False",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "False"
+        ]
+      }
+    },
+    "13369497": {
+      "color_val": 13369497,
+      "color_hex": "0x00cc0099",
+      "color_rgb": [
+        204,
+        0,
+        153
+      ],
+      "aci_mapped": 6,
+      "aci_name": "Purpurová",
+      "aci_confidence": 0.742,
+      "sample_count": 1,
+      "unique_sources": 1,
+      "source_files": [
+        "PCB.VCF"
+      ],
+      "speed_mms": {
+        "mean": 300.0,
+        "min": 300.0,
+        "max": 300.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 300,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "cutter_type": {
+        "most_common": "Vibrate cutter",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "Vibrate cutter"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 1.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "start_height_h1_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "end_height_h2_mm": {
+        "mean": 8.0,
+        "min": 8.0,
+        "max": 8.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 8.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "direction": {
+        "most_common": "N/A",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "N/A"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 0.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 1.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "ending_extension_mm": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0,
+        "count": 1,
+        "confidence": 0.62,
+        "mode_value": 1.0,
+        "mode_count": 1,
+        "mode_ratio": 1.0
+      },
+      "is_output_yes": {
+        "most_common": "True",
+        "mode_count": 1,
+        "total": 1,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "True"
+        ]
+      }
+    },
+    "16711680": {
+      "color_val": 16711680,
+      "color_hex": "0x00ff0000",
+      "color_rgb": [
+        255,
+        0,
+        0
+      ],
+      "aci_mapped": 1,
+      "aci_name": "Červená",
+      "aci_confidence": 1.0,
+      "sample_count": 8,
+      "unique_sources": 8,
+      "source_files": [
+        "2790x1200 s fazetou.VCF",
+        "FLUENZ BOLD S_ozub kolo na objímku.VCF",
+        "FLUENZ M.VCF",
+        "FLUENZ S.VCF",
+        "FLUENZ XL.VCF",
+        "PCB.VCF",
+        "musica 2790x1200.VCF",
+        "stripe sixty 1200x2790.VCF"
+      ],
+      "speed_mms": {
+        "mean": 113.75,
+        "min": 70.0,
+        "max": 200.0,
+        "std": 48.09,
+        "count": 8,
+        "confidence": 0.464,
+        "mode_value": 70,
+        "mode_count": 3,
+        "mode_ratio": 0.375
+      },
+      "cutter_type": {
+        "most_common": "Vibrate cutter",
+        "mode_count": 5,
+        "total": 8,
+        "mode_ratio": 0.625,
+        "unique_values": [
+          "V-slot",
+          "Vibrate cutter"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 0.75,
+        "min": 0.0,
+        "max": 1.0,
+        "std": 0.46,
+        "count": 8,
+        "confidence": 0.39,
+        "mode_value": 1.0,
+        "mode_count": 6,
+        "mode_ratio": 0.75
+      },
+      "start_height_h1_mm": {
+        "mean": 9.0,
+        "min": 0.0,
+        "max": 24.0,
+        "std": 12.42,
+        "count": 8,
+        "confidence": 0.36,
+        "mode_value": 0.0,
+        "mode_count": 5,
+        "mode_ratio": 0.625
+      },
+      "end_height_h2_mm": {
+        "mean": 1.62,
+        "min": -0.5,
+        "max": 9.0,
+        "std": 3.72,
+        "count": 8,
+        "confidence": 0.447,
+        "mode_value": -0.5,
+        "mode_count": 4,
+        "mode_ratio": 0.5
+      },
+      "direction": {
+        "most_common": "N/A",
+        "mode_count": 5,
+        "total": 8,
+        "mode_ratio": 0.625,
+        "unique_values": [
+          "Cut both side",
+          "Left",
+          "N/A"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 8,
+        "confidence": 0.76,
+        "mode_value": 0.0,
+        "mode_count": 8,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 0.38,
+        "min": 0.0,
+        "max": 2.0,
+        "std": 0.74,
+        "count": 8,
+        "confidence": 0.462,
+        "mode_value": 0.0,
+        "mode_count": 6,
+        "mode_ratio": 0.75
+      },
+      "ending_extension_mm": {
+        "mean": 0.38,
+        "min": 0.0,
+        "max": 2.0,
+        "std": 0.74,
+        "count": 8,
+        "confidence": 0.462,
+        "mode_value": 0.0,
+        "mode_count": 6,
+        "mode_ratio": 0.75
+      },
+      "is_output_yes": {
+        "most_common": "True",
+        "mode_count": 8,
+        "total": 8,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "True"
+        ]
+      }
+    },
+    "16748574": {
+      "color_val": 16748574,
+      "color_hex": "0x00ff901e",
+      "color_rgb": [
+        255,
+        144,
+        30
+      ],
+      "aci_mapped": 30,
+      "aci_name": "Oranžová",
+      "aci_confidence": 0.917,
+      "sample_count": 2,
+      "unique_sources": 2,
+      "source_files": [
+        "1ks.VCF",
+        "stripe sixty 1200x2790.VCF"
+      ],
+      "speed_mms": {
+        "mean": 72.5,
+        "min": 45.0,
+        "max": 100.0,
+        "std": 38.89,
+        "count": 2,
+        "confidence": 0.24,
+        "mode_value": 45,
+        "mode_count": 1,
+        "mode_ratio": 0.5
+      },
+      "cutter_type": {
+        "most_common": "Vibrate cutter",
+        "mode_count": 2,
+        "total": 2,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "Vibrate cutter"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "std": 0.0,
+        "count": 2,
+        "confidence": 0.64,
+        "mode_value": 1.0,
+        "mode_count": 2,
+        "mode_ratio": 1.0
+      },
+      "start_height_h1_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 2,
+        "confidence": 0.64,
+        "mode_value": 0.0,
+        "mode_count": 2,
+        "mode_ratio": 1.0
+      },
+      "end_height_h2_mm": {
+        "mean": -0.75,
+        "min": -1.0,
+        "max": -0.5,
+        "std": 0.35,
+        "count": 2,
+        "confidence": 0.24,
+        "mode_value": -0.5,
+        "mode_count": 1,
+        "mode_ratio": 0.5
+      },
+      "direction": {
+        "most_common": "N/A",
+        "mode_count": 2,
+        "total": 2,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "N/A"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 2,
+        "confidence": 0.64,
+        "mode_value": 0.0,
+        "mode_count": 2,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 2,
+        "confidence": 0.64,
+        "mode_value": 0.0,
+        "mode_count": 2,
+        "mode_ratio": 1.0
+      },
+      "ending_extension_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 2,
+        "confidence": 0.64,
+        "mode_value": 0.0,
+        "mode_count": 2,
+        "mode_ratio": 1.0
+      },
+      "is_output_yes": {
+        "most_common": "True",
+        "mode_count": 2,
+        "total": 2,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "True"
+        ]
+      }
+    },
+    "16776960": {
+      "color_val": 16776960,
+      "color_hex": "0x00ffff00",
+      "color_rgb": [
+        255,
+        255,
+        0
+      ],
+      "aci_mapped": 2,
+      "aci_name": "Žlutá",
+      "aci_confidence": 1.0,
+      "sample_count": 3,
+      "unique_sources": 3,
+      "source_files": [
+        "26ks skladba.VCF",
+        "26ks skladba_nesting.VCF",
+        "PCB.VCF"
+      ],
+      "speed_mms": {
+        "mean": 100.0,
+        "min": 50.0,
+        "max": 200.0,
+        "std": 86.6,
+        "count": 3,
+        "confidence": 0.26,
+        "mode_value": 50,
+        "mode_count": 2,
+        "mode_ratio": 0.667
+      },
+      "cutter_type": {
+        "most_common": "Vibrate cutter",
+        "mode_count": 2,
+        "total": 3,
+        "mode_ratio": 0.667,
+        "unique_values": [
+          "V-slot",
+          "Vibrate cutter"
+        ]
+      },
+      "number_of_feeding": {
+        "mean": 0.33,
+        "min": 0.0,
+        "max": 1.0,
+        "std": 0.58,
+        "count": 3,
+        "confidence": 0.26,
+        "mode_value": 0.0,
+        "mode_count": 2,
+        "mode_ratio": 0.667
+      },
+      "start_height_h1_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "confidence": 0.66,
+        "mode_value": 0.0,
+        "mode_count": 3,
+        "mode_ratio": 1.0
+      },
+      "end_height_h2_mm": {
+        "mean": 3.0,
+        "min": 0.0,
+        "max": 9.0,
+        "std": 5.2,
+        "count": 3,
+        "confidence": 0.26,
+        "mode_value": 0.0,
+        "mode_count": 2,
+        "mode_ratio": 0.667
+      },
+      "direction": {
+        "most_common": "N/A",
+        "mode_count": 2,
+        "total": 3,
+        "mode_ratio": 0.667,
+        "unique_values": [
+          "Cut both side",
+          "N/A"
+        ]
+      },
+      "v_slot_width_comp_mm": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "confidence": 0.66,
+        "mode_value": 0.0,
+        "mode_count": 3,
+        "mode_ratio": 1.0
+      },
+      "starting_extension_mm": {
+        "mean": 0.67,
+        "min": 0.0,
+        "max": 2.0,
+        "std": 1.15,
+        "count": 3,
+        "confidence": 0.26,
+        "mode_value": 0.0,
+        "mode_count": 2,
+        "mode_ratio": 0.667
+      },
+      "ending_extension_mm": {
+        "mean": 0.67,
+        "min": 0.0,
+        "max": 2.0,
+        "std": 1.15,
+        "count": 3,
+        "confidence": 0.26,
+        "mode_value": 0.0,
+        "mode_count": 2,
+        "mode_ratio": 0.667
+      },
+      "is_output_yes": {
+        "most_common": "True",
+        "mode_count": 3,
+        "total": 3,
+        "mode_ratio": 1.0,
+        "unique_values": [
+          "True"
+        ]
+      }
+    }
+  }
+}
