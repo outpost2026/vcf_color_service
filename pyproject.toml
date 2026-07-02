@@ -16,5 +16,8 @@ keywords = ["vcf", "aci", "color-mapping", "cnc", "reverse-engineering"]
 where = ["."]
 include = ["vcf_color_service*"]
 
+[project.optional-dependencies]
+dev = ["pytest"]
+
 [tool.pytest.ini_options]
 testpaths = ["vcf_color_service/tests"]
