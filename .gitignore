@@ -4,6 +4,9 @@ __pycache__/
 *.egg-info/
 nul
 
+# Secrets
+.env
+
 # Large files (>5 MB) — never accidentally committed
 *.zip
 *.tar.gz
